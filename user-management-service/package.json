@@ -1,0 +1,23 @@
+{
+  "name": "user-management-service",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.4",
+    "nodemailer": "^6.9.15",
+    "passport": "^0.7.0"
+  }
+}
